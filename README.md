@@ -1,39 +1,25 @@
 # OC_Projet_2
+# Le projet d’expansion à l’international de l’entreprise
 
-# L'agence "Santé publique France" a lancé un appel à projets pour trouver des idées innovantes d’applications en lien avec l'alimentation. 
-On souhaite y participer et proposer une idée d’application.
+## Une start-up de la EdTech, nommée academy,  propose des contenus de formation en ligne pour un public de niveau lycée et université.
+
+# Une première mission d’analyse exploratoire, pour déterminer si les données sur l’éducation de la banque mondiale permettent d’informer le projet d’expansion.
+Voici les questions:
+Quels sont les pays avec un fort potentiel de clients pour nos services ?
+Pour chacun de ces pays, quelle sera l’évolution de ce potentiel de clients ?
+Dans quels pays l'entreprise doit-elle opérer en priorité ?
 
 ## Les données
-Extrait de l’appel à projets :
+Les données de la Banque mondiale sont disponibles à l’adresse suivante :
+https://datacatalog.worldbank.org/dataset/education-statistics.
 
-Le jeu de données Open Food Facts est disponible sur le site officiel. Les variables sont définies à cette adresse.
+En résumé, l’organisme “EdStats All Indicator Query” de la Banque mondiale répertorie 4000 indicateurs internationaux décrivant l’accès à l’éducation, l’obtention de diplômes et des informations relatives aux professeurs, aux dépenses liées à l’éducation...
 
-Les champs sont séparés en quatre sections :
+## Pour la pré-analyse:
 
-# Les informations générales sur la fiche du produit : nom, date de modification, etc.
-# Un ensemble de tags : catégorie du produit, localisation, origine, etc.
-# Les ingrédients composant les produits et leurs additifs éventuels.
-# Des informations nutritionnelles : quantité en grammes d’un nutriment pour 100 grammes du produit.
+1. Valider la qualité de ce jeu de données (comporte-t-il beaucoup de données manquantes, dupliquées ?)
+2. Décrire les informations contenues dans le jeu de données (nombre de colonnes ? nombre de lignes ?)
+3. Sélectionner les informations qui semblent pertinentes pour répondre à la problématique (quelles sont les colonnes contenant des informations qui peuvent être utiles pour répondre à la problématique de l’entreprise ?)
+4. Déterminer des ordres de grandeurs des indicateurs statistiques classiques pour les différentes zones géographiques et pays du monde (moyenne/médiane/écart-type par pays et par continent ou bloc géographique)
+Le travail va permettre de déterminer si ce jeu de données peut informer les décisions d'ouverture vers de nouveaux pays. On va partager ton analyse avec le board, alors merci de soigner la présentation et de l'illustrer avec des graphiques pertinents et lisibles !
 
-## Mission
-Après avoir lu l’appel à projets, voici les différentes étapes que vous avez identifiées :
-
-1) Traiter le jeu de données, en :
-
-Réfléchissant à une idée d’application.
-Repérant des variables pertinentes pour les traitements à venir, et nécessaires pour votre idée d’application.
-Nettoyant les données en :
-mettant en évidence les éventuelles valeurs manquantes, avec au moins 3 méthodes de traitement adaptées aux variables concernées,
-identifiant et en quantifiant les éventuelles valeurs aberrantes de chaque variable.
-Automatisant ces traitements pour éviter de répéter ces opérations
-Le programme doit fonctionner si la base de données est légèrement modifiée (ajout d’entrées, par exemple).
-
-2) Tout au long de l’analyse, produire des visualisations afin de mieux comprendre les données. Effectuer une analyse univariée pour chaque variable intéressante, afin de synthétiser son comportement.
-
-L’appel à projets spécifie que l’analyse doit être simple à comprendre pour un public néophyte. Soyez donc attentif à la lisibilité : taille des textes, choix des couleurs, netteté suffisante, et variez les graphiques (boxplots, histogrammes, diagrammes circulaires, nuages de points…) pour illustrer au mieux votre propos.
-
-3) Confirmer ou infirmer les hypothèses à l’aide d’une analyse multivariée. Effectuer les tests statistiques appropriés pour vérifier la significativité des résultats.
-
-4) Justifier votre idée d’application. Identifier des arguments justifiant la faisabilité (ou non) de l’application à partir des données Open Food Facts.
-
-5) Rédiger un rapport d’exploration et pitcher votre idée durant la soutenance du projet.
