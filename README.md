@@ -1,25 +1,23 @@
 # OC_Projet_2
-# Le projet d’expansion à l’international de l’entreprise
+# International Expansion Project of the Company
+## An EdTech startup named Academy offers online training content for high school and university-level audiences.
+# A preliminary exploratory analysis mission to determine if the World Bank's education data can inform the international expansion project.
 
-## Une start-up de la EdTech, nommée academy,  propose des contenus de formation en ligne pour un public de niveau lycée et université.
+Here are the questions:
+Which countries have a high potential for clients for our services?
+For each of these countries, what is the evolution of this client potential?
+In which countries should the company operate as a priority?
 
-# Une première mission d’analyse exploratoire, pour déterminer si les données sur l’éducation de la banque mondiale permettent d’informer le projet d’expansion.
-Voici les questions:
-Quels sont les pays avec un fort potentiel de clients pour nos services ?
-Pour chacun de ces pays, quelle sera l’évolution de ce potentiel de clients ?
-Dans quels pays l'entreprise doit-elle opérer en priorité ?
-
-## Les données
-Les données de la Banque mondiale sont disponibles à l’adresse suivante :
+# The Data
+The World Bank data is available at the following address:
 https://datacatalog.worldbank.org/dataset/education-statistics.
 
-En résumé, l’organisme “EdStats All Indicator Query” de la Banque mondiale répertorie 4000 indicateurs internationaux décrivant l’accès à l’éducation, l’obtention de diplômes et des informations relatives aux professeurs, aux dépenses liées à l’éducation...
+In summary, the World Bank's "EdStats All Indicator Query" lists 4000 international indicators describing access to education, degree attainment, and information related to teachers, educational expenses, etc.
 
-## Pour la pré-analyse:
-
-1. Valider la qualité de ce jeu de données (comporte-t-il beaucoup de données manquantes, dupliquées ?)
-2. Décrire les informations contenues dans le jeu de données (nombre de colonnes ? nombre de lignes ?)
-3. Sélectionner les informations qui semblent pertinentes pour répondre à la problématique (quelles sont les colonnes contenant des informations qui peuvent être utiles pour répondre à la problématique de l’entreprise ?)
-4. Déterminer des ordres de grandeurs des indicateurs statistiques classiques pour les différentes zones géographiques et pays du monde (moyenne/médiane/écart-type par pays et par continent ou bloc géographique)
-Le travail va permettre de déterminer si ce jeu de données peut informer les décisions d'ouverture vers de nouveaux pays. On va partager le analyse avec le board, alors merci de soigner la présentation et de l'illustrer avec des graphiques pertinents et lisibles !
+# For the Pre-Analysis:
+Validate the quality of this dataset (does it have a lot of missing or duplicated data?)
+Describe the information contained in the dataset (number of columns? number of rows?)
+Select information that seems relevant to answer the problem (which columns contain information that can be useful to answer the company's problem?)
+Determine the orders of magnitude of classic statistical indicators for different geographic areas and countries of the world (average/median/standard deviation per country and per continent or geographic block)
+The work will determine if this dataset can inform decisions to open up to new countries. We will share the analysis with the board, so please take care of the presentation and illustrate it with relevant and readable graphs!
 
