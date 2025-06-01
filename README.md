@@ -1,23 +1,57 @@
-# OC_Projet_2
-# International Expansion Project of the Company
-## An EdTech startup named Academy offers online training content for high school and university-level audiences.
-# A preliminary exploratory analysis mission to determine if the World Bank's education data can inform the international expansion project.
+#  Academy Global Expansion – Data-Driven Insights
 
-Here are the questions:
-Which countries have a high potential for clients for our services?
-For each of these countries, what is the evolution of this client potential?
-In which countries should the company operate as a priority?
+**Project Goal:**  
+Support international expansion of Academy, an EdTech startup offering online learning content for high school and university students. Using World Bank education statistics, we aim to identify countries with strong growth potential and prioritize market entry.
 
-# The Data
-The World Bank data is available at the following address:
-https://datacatalog.worldbank.org/dataset/education-statistics.
+##  Data Source
 
-In summary, the World Bank's "EdStats All Indicator Query" lists 4000 international indicators describing access to education, degree attainment, and information related to teachers, educational expenses, etc.
+- **World Bank Education Statistics**
+  - [Dataset Link](https://datacatalog.worldbank.org/dataset/education-statistics)
+  - Contains over 4000 indicators related to access, attainment, teachers, and expenditure.
 
-# For the Pre-Analysis:
-Validate the quality of this dataset (does it have a lot of missing or duplicated data?)
-Describe the information contained in the dataset (number of columns? number of rows?)
-Select information that seems relevant to answer the problem (which columns contain information that can be useful to answer the company's problem?)
-Determine the orders of magnitude of classic statistical indicators for different geographic areas and countries of the world (average/median/standard deviation per country and per continent or geographic block)
-The work will determine if this dataset can inform decisions to open up to new countries. We will share the analysis with the board, so please take care of the presentation and illustrate it with relevant and readable graphs!
+##  Project Objectives
+
+1. **Evaluate Data Quality**  
+   - Detect duplicates, missing values, and structural issues  
+   - Summarize number of columns/rows and assess usefulness
+
+2. **Select Relevant Indicators**  
+   - Enrollment rates (secondary, tertiary)
+   - Internet access for students/teachers
+   - Education expenditure
+   - Graduation rates
+
+3. **Country Profiling & Comparison**  
+   - Compute statistical summaries (mean, median, std)  
+   - Group by regions or development levels
+
+4. **Ranking & Recommendations**  
+   - Identify top 10–15 countries with growth potential  
+   - Visualize evolution over time  
+   - Score and prioritize for action
+
+## Key Visualizations
+
+- Heatmaps for regional education access
+- Line charts showing enrollment trends
+- Comparative radar plots by region
+- Missing data matrix
+
+##  Preliminary Findings (example placeholder)
+
+- High growth potential: India, Brazil, Nigeria, Indonesia
+- Europe shows stable but saturated metrics
+- MENA region has rising internet access + growing youth population
+
+##  Tools Used
+
+- Python (Pandas, Seaborn, Matplotlib)
+- World Bank API
+- Jupyter Notebooks
+
+##  Next Steps
+
+- Deeper investigation of top 5 countries
+- Correlate education stats with digital penetration
+- Validate with local market insights
 
