@@ -1,5 +1,7 @@
 #  Academy Global Expansion – Data-Driven Insights
 
+![Preview](image.png)
+
 **Project Goal:**  
 Support international expansion of Academy, an EdTech startup offering online learning content for high school and university students. Using World Bank education statistics, we aim to identify countries with strong growth potential and prioritize market entry.
 
